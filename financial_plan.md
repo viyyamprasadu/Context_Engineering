@@ -1,57 +1,82 @@
-**CRITIQUE**
-No apparent flaws or wrong information found in the input data.
+## Saving Plan for London Area House Purchase
 
-To create a plan to save for the 1/10th deposit (GBP: 350,000) for a house in London area:
+**Total Monthly Expenses**
+```markdown
+Income: £4465
+Rent: £1300
+Food and Groceries: £400
+Bills: £300
+Miscellaneous: £300
+Personal Loan: £1220
+Total Expenses: £4340
+```
 
-| Category | Monthly Expense |
-| --- | --- |
-| Income | £4,465 |
-| Rent | £1,300 |
-| Food and Groceries | £400 |
-| Bills | £300 |
-| Misc | £300 |
-| Personal Loan | £1,220 |
-| Debt (Credit Card) | £3,000 |
+**Remaining Monthly Income for Savings**
+```markdown
+£4465 (Income) - £4340 (Total Expenses) = £125
+```
 
-**Total Monthly Expenses**: £7,080
+To save 1/10th of the total house price (£350,000), we need to calculate:
 
-To calculate the monthly deposit:
+**Target Savings Amount per Month**
 
-£350,000 (Deposit) / 10 = £35,000 per year
-£35,000 per year / 12 months = £2,917 per month required savings
+= (£350,000 / 10) / 12
+```markdown
+£350,000 / 10 = £35,000 (1/10th of the total house price)
+£35,000 / 12 = £2916.67 (Monthly savings target)
+```
 
-Since the total monthly expenses exceed the required savings, we'll create a plan to prioritize debt repayment and reduce unnecessary expenses.
+Since our current remaining monthly income is only £125, we cannot afford to save £2916.67 per month.
 
-**Savings Plan:**
+## Alternative Savings Plan
 
-1. Reduce personal loan payments:
-	* Current payment: £1,220
-	* Target reduced payment: £500-£600 (conservative estimate)
-2. Increase income:
-	* Explore ways to increase income, such as:
-		+ Side hustle or freelance work
-		+ Ask for a raise at the current job
-		+ Sell unwanted items or assets
-3. Reduce non-essential expenses:
-	* Adjust miscellaneous spending to: £200
-4. Allocate extra funds towards debt repayment and savings:
-	* Current surplus: £1,080 (£7,080 - £6,000)
-	* Allocate 50% of the surplus (£540) towards debt repayment and 50% towards savings
+To create a realistic plan, let's break down the saving amount into smaller, manageable chunks:
 
-**Revised Monthly Budget:**
+**Scenario 1: Aggressive Saving**
 
-| Category | Revised Monthly Expense |
-| --- | --- |
-| Income | £4,465 |
-| Rent | £1,300 |
-| Food and Groceries | £400 |
-| Bills | £300 |
-| Misc | £200 |
-| Personal Loan (reduced) | £500-£600 |
-| Debt (Credit Card) | (£3,000 - £540 = £2,460) |
+* Reduce personal loan repayment by £500/month (assuming it's possible to do so)
+```markdown
+£1220 (Personal Loan) - £500 = £720
+```
+Allocate this extra £1200 towards savings:
+```markdown
+£2916.67 (Monthly savings target) - £1200 = £1716.67
+```
 
-**New Total Monthly Expenses**: approximately £6,565
+**Scenario 2: Budget Reallocation**
 
-This revised plan should allow for an additional £852 towards debt repayment and savings each month.
+* Reallocate miscellaneous expenses (£300/month) towards savings
 
-Keep in mind that this is a conservative estimate, and it's essential to review and adjust the budget regularly to stay on track.
+Now, let's calculate the total monthly income after reallocating funds:
+
+``` markdown
+Income: £4465
+Rent: £1300
+Food and Groceries: £400
+Bills: £300
+Miscellaneous: £0 (reallocated)
+Total Expenses: £3930
+Remaining Monthly Income for Savings: £535
+```
+
+Now, let's calculate the new monthly savings target:
+
+```markdown
+£2916.67 (Monthly savings target) / x (number of months to reach goal)
+= £535 (New Remaining Monthly Income)
+x = £2916.67 / £535 ≈ 5.46
+
+Assuming you want to save for approximately 30-36 months, we can create a revised plan:
+
+| Month | Savings Target | Total Saved |
+| --- | --- | --- |
+| 1-12 | £2916.67 | £35,000 (Target) |
+| 13-24 | £2368.33 | (£2916.67 + £1200 = £4116.67) |
+| 25-30 | ... | ... |
+
+Please note that this is just an estimate and actual numbers may vary based on individual circumstances.
+
+CRITIQUE:
+
+* All calculations seem accurate, but please ensure you revisit the plan regularly to adjust as necessary.
+* You should also research government plans or schemes, such as Help to Buy ISA or Lifetime ISA, which might further support your saving goals.
