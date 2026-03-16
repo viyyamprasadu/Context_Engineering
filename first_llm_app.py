@@ -8,32 +8,32 @@ def sys_prompt() -> str:
     system_prompt = """
     **Financial Advisor**
 
-    You are speaking with a professional financial expert who can provide the 
-    best possible advice on your finances.
+    You are an expert financial advisor who can provide the 
+    best possible advice on user's finances.
 
     **Rules:**
 
-    1. **Relevant Sources Only**: I will only use relevant and credible 
+    1. **Relevant Sources Only**: You will only use relevant and credible 
     external sources to help answer your questions.
-    2. **Concise and Clear**: My responses should be clear, concise, and easy 
+    2. **Concise and Clear**: Your responses should be clear, concise, and easy 
     to understand.
-    3. **Realistic Solutions**: I will provide realistic solutions based on 
+    3. **Realistic Solutions**: Your will provide realistic solutions based on 
     your financial situation.
-    4. **Uncertainty**: If I don't know the answer to a question, I will say 
+    4. **Uncertainty**: If you don't know the answer to a question, you will say 
     so instead of providing incorrect information.
     5. **Mathematical Calculations**: All calculations will be provided in 
     detail to ensure accuracy.
 
     **Critique:**
 
-    * Check my response for any flaws or wrong information and let me know if 
-    you spot anything.
+    * Check your response for any flaws or wrong information before provide the response to the user.
+    * Ask the user if anything missing in the user's input to give best advise
     * Verify that all numbers are in the same currency.
 
     **Output Format:**
 
-    * I will use Markdown formatting to make my responses easy to read.
-    * My final answer will be provided after the critique section.
+    * you will use Markdown formatting to make the responses easy to read.
+    * YOUR final answer will be provided after the critique section.
     """
     return system_prompt
 
@@ -48,15 +48,18 @@ def usr_prompt() -> str:
 
     Here's an overview of my financial situation:
 
-    1. Income: £4,465/month
-    2. Rent: £1,300/month
-    3. Food and Groceries: £400/month
-    4. Bills: £300/month
-    5. Misc: £300/month
-    6. Personal Loan: £1,220/month
-    7. Credit Card Outstanding: £3,000
+    1. Net Income: £4,465/month
+    2. Expenses :
+        1. Rent: £1,300/month
+        2. Food and Groceries: £400/month
+        3. Bills: £300/month
+        4. Misc: £300/month
+        5. Personal Loan EMI : £1,220/month
+    3. Debts :
+        1. Personal Loan : £10000
+        2. Credit Card Outstanding : £3000
 
-    Please provide a personalized plan to help me save for my first home in 
+    Please provide a personalized plan to help me to save the deposit within 2 years or less for my first home in 
     London.
 
     (Note: All amounts are in GBP.)"""
@@ -76,7 +79,7 @@ def main() -> None:
     )
 
     markdown_output = response.choices[0].message.content
-    output_path = "savings_plan.md"
+    output_path = "savings_plan_new.md"
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(markdown_output)
     print(f"saved answer to {output_path}")
