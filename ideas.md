@@ -1,0 +1,14 @@
+## 1. simplify system_prompt 
+- add list/dict/sets for rules,critic,constrains, etc.,
+- pass arguments to the sys prompt function
+
+## 2. simplify user_prompt
+- add list/dict/sets for user prompt
+- give input as arguments
+- dynamic user input data
+
+## 3. Modify the system prompt suchway that the output should be in standard format
+
+## 4. Add format specifiers such JSON,etc in the main
+
+## 5. Change the way of the getting the output as txt,md,etc.. with standard naming of the files(instead of fixed file)
