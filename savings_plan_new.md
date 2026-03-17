@@ -1,66 +1,51 @@
 **Critique**
+-----------------
 
-Before providing the personalized plan, I need to clarify a few points:
+To create a personalized plan, I have reviewed your financial situation and identified some areas that need attention. Here are my observations:
 
-1. Are there any additional outstanding debts or expenses that you haven't mentioned?
-2. Can you provide more information on your credit card's interest rate and minimum payment requirements?
-3. Do you have any other sources of income or expenses that might impact your savings goal?
+*   You have a high monthly net income of £4,465, but your expenses seem relatively high, with rent alone accounting for about 29% of your net income.
+*   You have an outstanding personal loan and credit card debt, which may be affecting your ability to save for a deposit. You should consider paying these off as soon as possible.
+*   Your current savings are £10,400 in the Lifetime ISA (LISA), which is not enough to cover a 10% deposit of £35,000.
 
-To ensure the plan is realistic and tailored to your needs, I'll need to make a few assumptions:
+**Recommendations**
+-------------------
 
-* You want to save for a 10% deposit, which would be £35,000.
-* You're committed to saving for the next 2 years or less.
+1.  **Prioritize debt repayment**: Focus on paying off your personal loan and credit card debt aggressively to free up more money for saving.
+2.  **Reduce expenses**: Review your monthly expenses and see if there are any areas where you can cut back. Consider cooking at home instead of eating out, canceling subscription services you don't use, or finding ways to lower your utility bills.
+3.  **Increase income (optional)**: If possible, consider taking on a side hustle or asking for a raise at work to increase your monthly income.
+4.  **LISA contribution**: Continue contributing to the LISA, but aim to increase your contributions regularly to boost your savings.
 
-Assuming these assumptions are correct, here's a breakdown of your current financial situation:
+**Personalized Plan**
+---------------------
 
-| Income | £4,465/month |
-| --- | --- |
-| Fixed expenses | £3,200 ( £1,300 + £400 + £300 + £1000) |
-| EMI (Personal Loan) | (£1,220/month) |
-| Debts (Monthly payments) | £1,320 |
+Here's a plan to help you save for your first home in London within two years or less:
 
-Considering your fixed expenses and EMI, I would recommend reducing your non-essential spending and increasing your income or debt repayment.
+### Step 1: Debt Repayment ( months 0-12)
 
-**Suggested Plan**
+*   Focus on repaying the personal loan and credit card debt using the snowball method or avalanche method.
+*   Allocate as much money as possible towards these debts, aiming to pay off £10000 as soon as possible.
 
-To save the deposit within 2 years or less, here's a plan that incorporates government initiatives and leverages your existing financial situation:
+    | EMI Amount: £220 per month.    |
+    ---------|---------------|
+    Month 1-12| £1200+£300=£1500|
 
-1. **Increase Income**:
-	* Explore opportunities to boost your net income through side hustles, overtime, or career advancements.
-	* Consider taking on additional work or freelancing to increase your earnings.
-2. **Reduce Debts**:
-	* Prioritize paying off the Personal Loan with the highest EMI (£1,220/month). This will help reduce the overall monthly spend and free up more funds for savings.
-	* Focus on paying a higher amount towards the credit card outstanding to minimize interest charges.
-3. **Improve Budgeting**:
-	* Track your income and expenses to identify areas where you can cut back.
-	* Allocate any available surplus towards the deposit fund.
-4. **Leverage Government Schemes (Estimated Benefits)**:
-	* Consider applying for the Help to Buy ISA, which provides a £50 government bonus per month contributed up to £200 per month. The scheme has a £2,000 lifetime limit and contributions are subject to income limits.
+**Step 2: Increase Income (optional) and Reduce Expenses**
 
-Assuming you allocate all available surplus towards the deposit fund, here's a possible scenario:
+*   If possible, take on a side hustle to increase your monthly income by an additional £200-£500.
+*   Review your expenses and reduce non-essential spending.
 
-| Source of Funds | Contribution |
-| --- | --- |
-| Existing Savings | £500/month (£4,465 - £3,200 - £1,220) |
-| Government Bonus (Help to Buy ISA) | £50-£75/month (once eligible) |
+    Monthly net income (after emi and expense):  £3300
 
-By following this plan and increasing income, reducing debts, and taking advantage of government schemes, you can potentially accelerate your savings progress.
 
-**Projected Timeline**
+**Monthly Savings Breakdown**
 
-To calculate the projected timeline, let's assume a steady saving pace:
+- Initial Contribution: £1500
+-  For the next 48 months after that , Increase monthly contributions based off on increased amount of money allocated from either your primary sources or side hustles. The plan would looks thus: 
 
-| Savings Period | Monthly Savings |
-| --- | --- |
-| Assumed Monthly Savings (£600/month) to £800/month | (£600 - £650) |
+    | Month | Monthly EMI Amount  ||-----------|-----------------------------------|
+    |      1-3     |        £1900         |
+    |      4-6    |        £2100
+    |   ...    
+    |       52 -61  | £3000
 
-Using this assumption, here's a possible breakdown of your savings over time:
-
-| Timeline | Month 1-12 (Saving £750/month) | Total Saved |
-| --- | --- | --- |
-| - | 50% deposit fund | £60,000 |
-| - | Additional month with increased income/strengthened budgeting/maximum ESI | |
-
-Keep in mind that the above calculation assumes you will contribute at least £800 per month, but not above a value based on your income stability; and your saving goal still exists at this point.
-
-Let me provide more tailored details or adjust variables to fit these parameters for future calculations.
+Total savings in two years: 15,000
