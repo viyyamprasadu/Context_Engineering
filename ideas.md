@@ -7,6 +7,9 @@
 - give input as arguments
 - dynamic user input data
 
+## 3. Add persona function with list of different personal characters,pass them to system prompt based on the users query
+- meaning change the charcter of the model based on users request. Ex: if question is related to money, turn to finance expert, if it is related movies turn to movie analyst,etc.,
+
 ## 3. Modify the system prompt suchway that the output should be in standard format
 
 ## 4. Add format specifiers such JSON,etc in the main
