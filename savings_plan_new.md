@@ -1,51 +1,35 @@
-**Critique**
------------------
+**Critique Section**
+Before providing a personalized plan, I would like to ask a few questions to ensure I understand your financial situation accurately:
 
-To create a personalized plan, I have reviewed your financial situation and identified some areas that need attention. Here are my observations:
+1. Have you considered any other expenses that may impact your ability to save, such as transportation costs or gym membership?
+2. Are there any specific lenders or mortgage options you're interested in exploring for your first home purchase?
+3. Would you like to prioritize paying off the outstanding credit amount or focusing solely on saving for the deposit?
 
-*   You have a high monthly net income of £4,465, but your expenses seem relatively high, with rent alone accounting for about 29% of your net income.
-*   You have an outstanding personal loan and credit card debt, which may be affecting your ability to save for a deposit. You should consider paying these off as soon as possible.
-*   Your current savings are £10,400 in the Lifetime ISA (LISA), which is not enough to cover a 10% deposit of £35,000.
+To provide a realistic and tailored plan, I also require more detailed information about your income stability and potential changes in your expenses.
 
-**Recommendations**
--------------------
+Assuming stability in your current income and expenses, here's an initial analysis of your financial situation:
 
-1.  **Prioritize debt repayment**: Focus on paying off your personal loan and credit card debt aggressively to free up more money for saving.
-2.  **Reduce expenses**: Review your monthly expenses and see if there are any areas where you can cut back. Consider cooking at home instead of eating out, canceling subscription services you don't use, or finding ways to lower your utility bills.
-3.  **Increase income (optional)**: If possible, consider taking on a side hustle or asking for a raise at work to increase your monthly income.
-4.  **LISA contribution**: Continue contributing to the LISA, but aim to increase your contributions regularly to boost your savings.
+* Income: £4,465/month
+* Monthly expenses: Rent (£1,300), Food (£400), Bills (£300), Miscellaneous (£300) = Total monthly outgoings: £2,100
+* Disposable income: £2,365/month (£4,465 - £2,100)
+* Savings: LISA (£10,400) + Emergency Fund (£2,500) = Total savings: £12,900
+* Debts:
+	+ Loan repayment: £1,220 (until cleared) and £0 (once repaid)
+	+ Outstanding credit: £3,000 to pay off
 
-**Personalized Plan**
----------------------
+**Saving Plan Assessment**
+To save a 10% deposit of £35,000 for your first home in London within 2 years or less, we need to calculate the required monthly savings.
 
-Here's a plan to help you save for your first home in London within two years or less:
+Monthly target savings = Total target amount / Number of months
+= £35,000 / 24 months (assuming 2 years)
+= approximately £1,458/month
 
-### Step 1: Debt Repayment ( months 0-12)
+Considering your income and expenses, I've calculated a feasible plan:
 
-*   Focus on repaying the personal loan and credit card debt using the snowball method or avalanche method.
-*   Allocate as much money as possible towards these debts, aiming to pay off £10000 as soon as possible.
-
-    | EMI Amount: £220 per month.    |
-    ---------|---------------|
-    Month 1-12| £1200+£300=£1500|
-
-**Step 2: Increase Income (optional) and Reduce Expenses**
-
-*   If possible, take on a side hustle to increase your monthly income by an additional £200-£500.
-*   Review your expenses and reduce non-essential spending.
-
-    Monthly net income (after emi and expense):  £3300
-
-
-**Monthly Savings Breakdown**
-
-- Initial Contribution: £1500
--  For the next 48 months after that , Increase monthly contributions based off on increased amount of money allocated from either your primary sources or side hustles. The plan would looks thus: 
-
-    | Month | Monthly EMI Amount  ||-----------|-----------------------------------|
-    |      1-3     |        £1900         |
-    |      4-6    |        £2100
-    |   ...    
-    |       52 -61  | £3000
-
-Total savings in two years: 15,000
+**Monthly Savings Plan**
+* Reduce discretionary spending by 10% to free up more funds for savings.
+	+ Allocate the saved amount towards debt repayment and retirement pots.
+	+ LISA contribution: maintain the current amount (£400-£500) as it has tax incentives.
+* Debt Repayment Strategy:
+	+ Focus on paying off the outstanding credit amount (£3,000) first, as this will free up more monthly income for saving.
+	+ Once the credit is cleared and loan repayment has started, allocate a proportionate amount towards the LISA to maintain savings momentum.
