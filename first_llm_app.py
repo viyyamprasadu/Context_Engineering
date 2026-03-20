@@ -59,7 +59,7 @@ def usr_prompt() -> str:
     """
     return user_prompt
 
-def main() -> None:
+def main():
 
     persona_arg = argparse.ArgumentParser(description= "Define the persona")
     persona_arg.add_argument(
@@ -67,11 +67,11 @@ def main() -> None:
         required=True,
         choices=["Financial Advisor", "Movie Analyst"]
     )
-    args = persona_arg.parse_args()
+    args        = persona_arg.parse_args()
     persona_key = args.persona
 
-    client = OpenAI(base_url=OLLAMA_HOST)
-    response = client.chat.completions.create(
+    client      = OpenAI(base_url=OLLAMA_HOST)
+    response    = client.chat.completions.create(
         model = "llama3.2",
         messages = [
             {'role' : 'system', 'content' : sys_prompt(persona_key)}, 
