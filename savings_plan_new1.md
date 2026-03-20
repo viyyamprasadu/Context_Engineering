@@ -1,55 +1,103 @@
 **Critique**
 
-To create a personalized plan, I'll need to clarify a few points:
+Thank you for providing detailed information about your financial situation.
 
-1. **Do you have any other savings goals or expenses that might impact your ability to save for a deposit?**
-2. **Are there any specific government plans or schemes you'd like to explore?** (e.g., Help to Buy, Shared Ownership)
-3. **Can you provide more information about the LISA and Emergency Fund amounts?** (e.g., are they currently being used or earmarked for other purposes?)
+I have reviewed your input and found that it is mostly complete, but there are a few specific questions I need clarification on:
 
-Assuming these details are correct, here's a suggested plan to help you save for your first home in London:
+* Are there any other deposits or savings options available to you besides the LISA?
+* Do you expect any income increases or changes in expenses within the next 2 years?
 
-### Step 1: Review and adjust expenses
+To provide the most accurate plan, I would like to confirm that your employment and expenses will remain constant for the next 24 months. Is this assumption correct?
 
-To free up more money for saving, let's review your expenses:
 
-* Rent: £1300 ( approx. 29% of income)
-* Bills: £300 ( approx. 7% of income)
-Total essential expenses: £1600
-Leaving you with approximately £2865 for other expenses and savings
 
-### Step 2: Prioritize debts and create a debt repayment plan
+Assuming your expenses and income will stay the same, here's a personalized plan to help you save for your first home in London:
 
-To pay off your loan and outstanding credit, let's allocate a specific amount each month:
 
-* Loan: £1220 ( pays off principal)
-* Outstanding Credit: £3000 ( repayable in 10 months, assuming £300 per month)
 
-### Step 3: Allocate savings for deposit fund
+**Your Current Financial Situation**
 
-Once you've cleared the debts and emergencies are covered, consider allocating funds towards your first home deposit.
+| Category | Amount |
+| --- | --- |
+| Income | £4465 |
+| Rent | £1300 |
+| Food | £400 |
+| Bills | £300 |
+| Miscellaneous | £300 |
+| Debt (Loan) | £10,000 |
+| Debt (Outstanding) | £3,000 |
+| Savings (LISA) | £10,400 |
+| Emergency Fund | £2,500 |
 
-## Step 4: Government plans and schemes
-For London-specific guidance on government-backed schemes, I recommend consulting [UK Government's website](https://www.gov.uk/new-homes-scheme) or contacting a local expert for personalized advice.
+**Goal**
 
-### Step 5: Calculate monthly contributions to the LISA
+* Save 10% deposit (£35,000) for a home in London priced at £350,000
+* Target completion within 24 months or less
 
-Based on your income, expenses, and debt repayment plan, I'll need to recalculate the amount you can allocate towards savings. Assuming it takes approximately 2 years (24 months) to reach your goal, here's a rough calculation:
+**Plan**
 
-Let's use the [National Savings and Investments' LISA calculator](https://www.gov.uk/browse/benefits/savings/lisa-calculator) as a reference.
+To calculate the required monthly savings, let's assume a fixed interest rate of 0% on your debt and income.
 
-With £4465 monthly gross income:
+Total Debt to be Repaid: £13,000 (£12,000 loan + £1,000 outstanding)
+Monthly Debt Repayment: £1220 (Loan) + £3000 (Outstanding) = £4200
 
-1. Total Monthly Disposable Income: £2865 (approximate)
-2. Monthly savings goal for deposit fund: £2000 - £2200 per month
+However, since you don't have a fixed annual salary or interest rate, we will calculate monthly savings based on your debt per month.
 
-Using the LISA calculator, assuming a 10% deposit target of £35,000, and aiming to reach your goal within 24 months.
+To determine the minimum required monthly contributions:
 
-Here's a sample monthly contribution breakdown:
+| Current debt | Remaining balance after payment | Required contribution |
+| --- | --- | --- |
+| £10,000 | £0 (assuming 100% paid) | - (£3000)|
+| £3,000 | £600 | £150 |
 
-* Month 1-6: £2200
-* Month 7-18: £2400
-* Month 19-24: £2500
+These calculations mean you need to focus on saving for your home while considering reducing debt.
 
-This plan assumes no additional expenses or savings goals for the intervening months.
+Monthly contributions for debt repayment
 
-However, this is just an estimate and should be adjusted based on other available funds and debt repayment progress.
+| Month | Contribution to LISA and Savings (£4465 - £1220 / £150 - £250) |
+| --- | --- |
+| 1-24 months | £3225 (£3650 - £422) |
+
+I will adjust the calculations by not reducing other expenses as well.
+
+Here's an estimated plan for saving the deposit within 2 years or less:
+
+**Estimated Monthly Contributions**
+
+To save the required amount of £35,000 (10% deposit), we'll calculate your monthly contributions. 
+
+Assuming you only prioritize debt repayment and savings from the remaining balance, here is a plan:
+
+
+*   You can adjust this monthly contribution according to preference
+*   To complete this calculation let me help you crunch some numbers.
+
+
+| Current debt | Remaining balance after payment  |
+| ---    |   --- |
+| £10,000   |   -£3000     |
+| £3,000    |      £600         |
+
+For the next two year plan I propose to follow this calculations:
+
+Assuming that your monthly contribution will remain constant and not taking into consideration inflation and other financial uncertainties. Here are a total of `150` amount you can save each month:
+
+
+You could calculate how many months it would likely take with these updated contributions
+
+Total savings needed = £35,000 Deposit
+
+Assume you add this amount to the LISA account.
+
+`150*24=3600`
+
+It looks like it will be approximately 27 months (2y +3mo) of saving
+
+
+**Recommendations and Considerations**
+
+1.  You should consider a government plan or scheme that can help you save for your first home, such as the Help to Buy ISA.
+2.  If interest rates increase, adjust monthly contribution upwards
+3.  Reduce the debt faster by allocating any extra funds towards it.
+4.  You might explore other LISA options
+5.  In case of any change with income or expenses adjust accordingly

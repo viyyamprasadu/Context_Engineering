@@ -7,17 +7,13 @@ OLLAMA_HOST = "http://localhost:11434"
 
 
 def sys_prompt(persona_key:str) -> str:
-
     #key = "Financial Advisor"
-
     persona = LLMUtils.persona_set()
     #for d in persona:
      #   if key in d:
     persona_text = next(d[persona_key] for d in persona if persona_key in d)
       #      break
-    
     #persona_text = next(iter(persona[0].values()))
-
     rules = "\n".join(f"- {r}" for r in LLMUtils.rules_set())
     critique = "\n".join(f"- {c}" for c in LLMUtils.critique_Set())
     output_format = "\n".join(f"- {of}" for of in LLMUtils.format_Set())
@@ -33,19 +29,17 @@ def sys_prompt(persona_key:str) -> str:
         **Output Format:**
         {output_format}
         """
-    
     return system_prompt
 
 def usr_prompt() -> str:
     detail_lines = []
-
-    for block in LLMUtils.input_set():
-        for k, v in block.items():
-            if isinstance(v, list):
-                nested = " ,".join(f"{nk}: {nv}" for item in v for nk,nv in item.items())
-                detail_lines.append(f"- {k}: {nested}")
-            else:
-                detail_lines.append(f"- {k}: {v}")
+    data = LLMUtils.input_set()
+    for k,v in data.items():
+        if isinstance(v, dict):
+            nested = " ,".join(f"{nk}: {nv}" for nk,nv in v.items())
+            detail_lines.append(f"- {k}: {nested}")
+        else:
+            detail_lines.append(f"- {k}: {v}")
     
     details = "\n".join(detail_lines)       
 
@@ -56,9 +50,10 @@ def usr_prompt() -> str:
     {details}
     
     Note:
-    1. I don't have any other debts and no other income sources\n"
-    2. Income and Expenses stays same every month until the they are repaid.\n\n"
+    1. I don't have any other debts and no other income sources.
+    2. Income and Expenses stays same every month until the they are repaid.
     3. I have to pay GBP 1220 towards Loan until it is cleared. also need repay GBP 3000 towards outstanding
+    4. The debts are fixed amounts, no interest on them.
 
     Please provide a personalized plan to help me to save the deposit within 2 years or less for my first home in London.
     """
@@ -75,9 +70,7 @@ def main() -> None:
     args = persona_arg.parse_args()
     persona_key = args.persona
 
-
     client = OpenAI(base_url=OLLAMA_HOST)
-
     response = client.chat.completions.create(
         model = "llama3.2",
         messages = [

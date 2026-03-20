@@ -3,10 +3,12 @@ class LLMUtils:
 
     def input_set():
 
-        input_details = [{"Income" : 4465 },
-        {"Expenses": [{"Rent" : 1300},{"Food": 400},{"Bills": 300},{"Misc": 300}]},
-        {"Debts":[{"Loan": 10000},{"Credit Outstanding": 3000}]},
-        {"savings":[{"LISA": 10400},{"EmergencyFund": 2500}]}]
+        input_details = {            
+            "Income" : 4465 ,
+            "Expenses": {"Rent" : 1300,"Food": 400,"Bills": 300,"Misc": 300},
+            "Debts":{"Loan": 10000,"Credit Outstanding": 3000},
+            "savings":{"LISA": 10400,"EmergencyFund": 2500}
+        }
         return input_details
 
     def persona_set():
@@ -17,7 +19,7 @@ class LLMUtils:
         return persona
 
 
-    def rules_set() -> []:
+    def rules_set():
         
         rules = [
             "Concise and Clear: Your responses should be clear, concise, and easy to understand.",
@@ -29,7 +31,7 @@ class LLMUtils:
 
         return rules
 
-    def critique_Set() -> []:
+    def critique_Set():
         
         critique = [
             "Check your response for any flaws or wrong information before provide the response to the user.",
@@ -39,7 +41,7 @@ class LLMUtils:
 
         return critique
 
-    def format_Set() -> []:
+    def format_Set():
 
         output_format = [
             "you will use Markdown formatting to make the responses easy to read.",

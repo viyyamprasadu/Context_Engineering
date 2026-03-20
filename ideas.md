@@ -1,5 +1,4 @@
 ## 1. simplify system_prompt 
-- add list/dict/sets for rules,critic,constrains, etc.,
 - pass arguments to the sys prompt function
 
 ## 2. simplify user_prompt
@@ -7,7 +6,7 @@
 - give input as arguments
 - dynamic user input data
 
-## 3. Add persona function with list of different personal characters,pass them to system prompt based on the users query
+## 3. pass list of different personal characters to system prompt based on the users query
 - meaning change the charcter of the model based on users request. Ex: if question is related to money, turn to finance expert, if it is related movies turn to movie analyst,etc.,
 
 ## 3. Modify the system prompt suchway that the output should be in standard format
