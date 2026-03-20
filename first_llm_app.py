@@ -18,21 +18,21 @@ def sys_prompt(persona_key:str) -> str:
     
     #persona_text = next(iter(persona[0].values()))
 
-    system_prompt = (
-    persona_text
-    +"\n"
-    "**Rules:**\n"
-    +"\n".join(f"- {r}" for r in LLMUtils.rules_set())
-    +"\n"
+    rules = "\n".join(f"- {r}" for r in LLMUtils.rules_set())
+    critique = "\n".join(f"- {c}" for c in LLMUtils.critique_Set())
+    output_format = "\n".join(f"- {of}" for of in LLMUtils.format_Set())
 
-    +"**Critique:**"
-    +"\n".join(f"- {c}" for c in LLMUtils.critique_Set())
-    +"\n"
+    system_prompt = f"""{persona_text}
 
-    +"**Output Format:**"
-    +"\n".join(f"- {of}" for of in LLMUtils.format_Set())
-    +"\n"
-    )
+        **Rules:**
+        {rules}
+
+        **Critique:**
+        {critique}
+
+        **Output Format:**
+        {output_format}
+        """
     
     return system_prompt
 
@@ -46,22 +46,22 @@ def usr_prompt() -> str:
                 detail_lines.append(f"- {k}: {nested}")
             else:
                 detail_lines.append(f"- {k}: {v}")
-                
+    
+    details = "\n".join(detail_lines)       
 
-    user_prompt = ("I want to have a plan to save for my first home in\n\n" 
-    "London, with a target price of £350,000 with deposit of 10%.I'm a first-time buyer and I'd like to explore options for saving fast.\n\n" 
-    "Please suggest any government plans or schemes that can help me achieve my goal.\n\n"
-    "Here's an overview of my financial situation:\n\n"
-    +"\n".join(detail_lines)
-    +"\n\n"
+    user_prompt = f"""I want to have a plan to save for my first home in
+    London, with a target price of £350,000 with deposit of 10%.I'm a first-time buyer and I'd like to explore options for saving fast. 
+    Please suggest any government plans or schemes that can help me achieve my goal.
+    Here's an overview of my financial situation:
+    {details}
+    
+    Note:
+    1. I don't have any other debts and no other income sources\n"
+    2. Income and Expenses stays same every month until the they are repaid.\n\n"
+    3. I have to pay GBP 1220 towards Loan until it is cleared. also need repay GBP 3000 towards outstanding
 
-    "Note:\n" 
-    "1. I don't have any other debts and no other income sources\n"
-    "2. Income and Expenses stays same every month until the they are repaid.\n\n"
-    "3. I have to pay GBP 1220 towards Loan until it is cleared. also need repay GBP 3000 towards outstanding\n\n"
-
-    "Please provide a personalized plan to help me to save the deposit within 2 years or less for my first home in London.")
-
+    Please provide a personalized plan to help me to save the deposit within 2 years or less for my first home in London.
+    """
     return user_prompt
 
 def main() -> None:
