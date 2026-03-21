@@ -45,7 +45,7 @@ class LLMUtils:
 
         output_format = [
             "you will use Markdown formatting to make the responses easy to read.",
-            "YOUR final answer will be provided after the critique section."
+            "your answer should as follows : 1. actual input 2. calculations. 3. what is needed. 4. How it can be achived"
         ]
 
         return output_format
