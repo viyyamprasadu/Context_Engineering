@@ -73,6 +73,7 @@ def main():
     client      = OpenAI(base_url=OLLAMA_HOST)
     response    = client.chat.completions.create(
         model = "llama3.2",
+        #response_format = {"type" : "json_object"},
         messages = [
             {'role' : 'system', 'content' : sys_prompt(persona_key)}, 
             {'role' : 'user', 'content' : usr_prompt()}

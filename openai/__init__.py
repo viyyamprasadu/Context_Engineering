@@ -39,14 +39,25 @@ class _ChatCompletionsClient:
         # Fallback: Ollama's native chat endpoint.
         self._fallback_endpoint = base + "/api/chat"
 
-    def create(self, model: str, messages: List[Dict[str, Any]]) -> Any:
+    def create(
+        self,
+        model: str,
+        messages: List[Dict[str, Any]],
+        *,
+        response_format: Any | None = None,
+        **kwargs: Any,
+    ) -> Any:
         """
         Send a chat completion request to an OpenAI-compatible endpoint.
 
         Returns a dict shaped similarly to the official OpenAI response so that
         `response.choices[0].message.content` works as expected.
+
+        Extra kwargs (e.g. temperature) are ignored by this stub unless added later.
         """
-        payload = {"model": model, "messages": messages}
+        payload: Dict[str, Any] = {"model": model, "messages": messages}
+        if response_format is not None:
+            payload["response_format"] = response_format
         data = json.dumps(payload).encode("utf-8")
 
         def _call(endpoint: str) -> Any:
