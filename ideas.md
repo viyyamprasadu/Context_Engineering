@@ -5,7 +5,7 @@
 - give input as arguments
 - dynamic user input data
 
-## 3. Modify the system prompt suchway that the output should be in standard format
+## 3. Modify the system prompt suchway that the output should be in standard format -one of them as richdad, poor dad style balance sheet
 
 ## 4. Add format specifiers such JSON,etc in the main
 

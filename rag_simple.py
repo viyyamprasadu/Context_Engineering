@@ -16,21 +16,12 @@ import re
 from typing import List
 
 from openai import OpenAI
+import rag_db
 
 OLLAMA_HOST = "http://localhost:11434"
 CHAT_MODEL = "llama3.2"
 
 # Pretend this is your "indexed" knowledge (in real apps: load from files + chunk).
-KNOWLEDGE_CHUNKS: List[str] = [
-    "A Lifetime ISA (LISA) lets UK residents aged 18–39 save up to £4,000 per tax year "
-    "with a 25% government bonus, usable for a first home or retirement.",
-    "First-time buyers in England may use a Help to Buy ISA legacy or LISA toward a deposit; "
-    "rules and limits change—check gov.uk for current schemes.",
-    "A typical mortgage deposit in the UK is often 5–15% of the property price; "
-    "higher deposits can mean lower interest rates.",
-    "Budgeting: track income, fixed costs, and discretionary spend; "
-    "pay down high-interest debt before aggressive saving for a house.",
-]
 
 
 def tokenize(text: str) -> set[str]:
@@ -57,7 +48,7 @@ def retrieve(query: str, chunks: List[str], top_k: int = 2) -> List[str]:
 
 
 def rag_answer(question: str) -> str:
-    context_chunks = retrieve(question, KNOWLEDGE_CHUNKS, top_k=2)
+    context_chunks = retrieve(question, rag_db.KNOWLEDGE_CHUNKS, top_k=2)
     context = "\n\n".join(f"[{i+1}] {c}" for i, c in enumerate(context_chunks))
 
     system = (

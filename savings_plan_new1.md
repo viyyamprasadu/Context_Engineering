@@ -1,71 +1,38 @@
-**1. Actual input**
-- Income: £4465 per month
-- Expenses:
-	* Rent: £1300
-	* Food: £400
-	* Bills: £300
-	* Misc: £300
-Total monthly expenses: £2900
-- Debts:
-	* Loan: £10,000 (fixed amount of £1220/month)
-	* Credit Outstanding: £3,000 (fixed amount of £1,000/month)
-- Savings:
-	* LISA: £10,400 (£880/month - £1059.60 savings rate due to fixed amount and credit repayment)
+**Personalized Plan:**
 
-**2. Calculations**
-To calculate the total monthly savings needed for the deposit:
-* Total required deposit: 10% of £350,000 = £35,000
-* Monthly deposit needed: £35,000 / 24 months (2 years) ≈ £1451/month
+1. **Actual Input:**
+	* Income: £4465/month
+	* Expenses:
+		+ Rent: £1300
+		+ Food: £400
+		+ Bills: £300
+		+ Misc: £300
+	Total Monthly Expenses: £3100
+	* Debts:
+		+ Loan: £10000 (fixed repayment of £1220/month)
+		+ Credit Outstanding: £3000 (fixed repayment of £3000/month)
+	* Savings:
+		+ LISA: £10400
+		+ Emergency Fund: £2500
+2. **Calculations:**
+	* Monthly net income: £4465 - £3100 = £1365
+	* Available monthly savings: £1365 - (£1220 loan repayment + £3000 credit repayment) = –£485 (deficit)
+3. **What is Needed:**
+	* To achieve the target of saving 10% deposit (£35000) for a London property in 2 years or less, you'll need to review and adjust your budget, and consider the following:
+		+ Reduce expenses as much as possible
+		+ Increase income (e.g., part-time job, side hustle)
+		+ Consider consolidating debts into a lower interest loan
+4. **How it can be Achieved:**
+	* **Reduce Expenses:** Optimize your budget by reducing non-essential expenses, and allocate the saved amount towards debt repayment and savings.
+	* **Increase Income:** Explore ways to boost your monthly income (e.g., part-time job, freelancing, selling items you no longer need).
+	* **Consolidate Debts:** If possible, consolidate your loan and credit outstanding into a single, lower-interest loan. This will help reduce the burden of debt repayment.
+	* **Maximize LISA Use:** Utilize the Lifetime ISA (LISA) for your first home deposit, as it offers a government bonus. Contribute as much as possible to the LISA through your employer and personal savings.
 
-Current debt repayment:
-- Loan: £1220/month
-- Credit Outstanding: £1000/month
-Total current debt repayment: £2220/month
+**Additional Recommendations:**
 
-Savings rate due to fixed amount and credit repayment:
-- LISA monthly savings (£880/month): Fixed amount, no interest on it.
-- Total monthly debt repayment (£2220/month) is fixed.
+* Check for any specific London region mortgages that offer better rates or incentives for first-time buyers.
+* Research reputable mortgage brokers who can provide guidance on securing the best mortgage terms for you.
+* Review your budget to ensure all expenses are accounted for, including loan repayments, credit payments, and utility bills.
 
-Current monthly net income available for saving:
-= Income - Total monthly expenses
-= £4465 - £2900
-= £1565
-
-Savings potential without considering current debt repayment and other sources of savings:
-= Current monthly net income - Monthly expenses
-- Savings required to pay-off debts or LISA if not used (assumes maximum possible)
- =  £1565 – (£150 / month which are the new savings which would be reduced from LISA, £200 that saved out of monthly income because of Credit outstanding)=$1315. 
-
-Given LISA needs credit repayments and credit outstanding needs same amount
-
-New approach:
-Reduce one source for saving or take an additional loan considering all factors.
-The new saving rate will take to consider both the savings required for the deposit, LISA repayments, Credit Outstanding payments with no addition.
-£35,000/24 (Years): £1451/month Savings needed 
-£10,400/24 ( Years ):
-£880 monthly savings
- £150 for credit outstanding repay
-$200 savings 
-
-New Plan:
-To calculate if adding a third saving source is required.
-$1565 - £300-£220=$1045 available for savings each month.
-To give your current debt repayment more space and try to lower down the LISA monthly and Credit outstanding repay amounts 
-= New monthly income – expenses and LISA (£880/month) + credit outstanding payments = 155 = New Savings Required per month with no other saving sources added
-
-
-**3. What is needed**
-To calculate if adding a third saving source is required:
-- Increase monthly savings rate above £1045 to reach the desired savings target.
-
-This would mean increasing income by £275 (which could be challenging and expensive).
-Or simply lower total expenses further.
-
-Alternatively, you can consider other savings options like:
-1. Help-to-Buy scheme
-2. Shared ownership scheme
-
-However, these schemes may come with additional requirements such as higher debt servicing payments or co-buying partners.
- 
-**4. How it can be achieved**
-To achieve this plan, we will need to lower total expenses for you further and increase net income from other sources if possible (we have not considered an extra loan)
+**Timeline:**
+As per your request, I will create a 2-year plan. However, please note that achieving this goal may require more flexibility in your budget.

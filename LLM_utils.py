@@ -21,12 +21,22 @@ class LLMUtils:
 
     def rules_set():
         
+        # rules = [
+        #     "Concise and Clear: Your responses should be clear, concise, and easy to understand.",
+        #     "Relevant Sources Only: You will only use relevant and credible external sources to help answer your questions.",
+        #     "Realistic Solutions: Your will provide realistic solutions based on your financial situation.",
+        #     "Uncertainty: If you don't know the answer to a question, you will say so instead of providing incorrect information.",
+        #     "Mathematical Calculations: All calculations will be provided in detail to ensure accuracy."
+        # ]
         rules = [
-            "Concise and Clear: Your responses should be clear, concise, and easy to understand.",
-            "Relevant Sources Only: You will only use relevant and credible external sources to help answer your questions.",
-            "Realistic Solutions: Your will provide realistic solutions based on your financial situation.",
-            "Uncertainty: If you don't know the answer to a question, you will say so instead of providing incorrect information.",
-            "Mathematical Calculations: All calculations will be provided in detail to ensure accuracy."
+            "Step 1 (Concise): Your responses should be clear, concise, and easy to understand.",
+            "Step 2 (Extract): Extract required inputs from the user (income, rent, expenses, debts, deposit %, target price, timeline).",
+            "Step 3 (Validate): Validate units/currency and assumptions (GBP/month, timeline in months/years).",
+            "Step 4 (Compute): Compute deposit amount and feasible monthly savings based on cashflow.",
+            "Step 5 (Strategies): Propose multiple realistic saving strategies that fit the user's situation.",
+            "Step 6 (Timeline): Create a timeline plan to reach the deposit within 2 years (with key calculations).",
+            "Step 7 (Feasibility Check): Re-check constraints and correct any mistakes.",
+            "Step 8 (Final Output): Produce the final Markdown answer in the required format after critique.",
         ]
 
         return rules
